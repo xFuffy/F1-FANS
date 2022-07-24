@@ -1,0 +1,61 @@
+*{margin: 0; padding: 0;}
+
+header{
+    position: sticky; top: 0;
+    z-index: 999;
+}
+
+.borde{
+    border: 1px #000 solid;
+    text-align: center;
+    height: 50px;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.banner{
+    background-image: url(../Imagenes/standard.gif); height: 3rem;
+    background-repeat: repeat;
+}
+
+.color1{
+    background: #eeeeee;
+}
+
+.color2{
+    background: #fcc314;
+}
+
+.color3{
+    background: #94ac3c;
+}
+
+.color4{
+    background: #295ba7;
+}
+
+footer{
+    width: 100%;
+    margin-top: 3rem;
+    text-align: center;
+    background-color: grey;
+    font-size: large;
+    color: white;
+}
+
+.marca_registrada{
+    font-weight: bold;
+    color: white;
+}
+
+.redes_sociales{
+    color: red;
+    font-size: large;
+    font-weight: bold;
+}
+
+.logos{
+    font-size: xx-large;
+}

@@ -1,0 +1,58 @@
+*{margin: 0; padding: 0;}
+
+.col{
+    width: 27rem;
+    height: 27rem;
+}
+
+body{
+    background-color: black;
+    overflow-x: hidden;
+}
+
+header{
+    position: sticky; top: 0;
+    z-index: 999;
+}
+
+#barraNavegacion{
+    margin-bottom: 1rem;
+}
+
+.card-title{
+    color: red;
+}
+
+.card-body{
+    background-color: black;
+    color: white;
+}
+
+footer{
+    width: 100%;
+    margin-top: 3rem;
+    text-align: center;
+    background-color: grey;
+    font-size: large;
+    color: white;
+}
+
+.marca_registrada{
+    font-weight: bold;
+    color: white;
+}
+
+.redes_sociales{
+    color: red;
+    font-size: large;
+    font-weight: bold;
+}
+
+.logos{
+    font-size: xx-large;
+}
+
+.mapita{
+    color: black;
+    position: relative; bottom: 1rem;
+}

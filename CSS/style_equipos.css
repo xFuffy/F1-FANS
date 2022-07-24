@@ -1,0 +1,96 @@
+*{margin: 0; padding: 0;}
+
+header{
+    position: sticky; top: 0;
+    z-index: 999;
+}
+
+body{
+    overflow-x: hidden;
+    background-color: black;
+}
+
+/* ----------------------------------- */
+.padre{
+    background-color: grey;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    height: 10rem;
+}
+
+.hijo1{
+    clear: both;
+    float: left;
+    margin-left: 0.5rem;
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+}
+
+.hijo2{
+    margin-left: 0.5rem;
+}
+
+.titulo{
+    color: red;
+}
+
+.texto{
+    color: white;
+}
+
+
+.padre2{
+    background-color: rgb(59, 59, 59);
+    padding: 0.5rem;
+    height: 10rem;
+    border-radius: 1rem;
+}
+
+.hijo3{
+    clear: both;
+    margin-left: 1rem;
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
+    float: right;
+}
+
+.hijo4{
+    margin-right: 0.5rem;
+    float: right;
+}
+
+.titulo2{
+    color: red;
+    float: right;
+}
+
+.texto2{
+    color: white;
+    position: relative; top: 2.5rem; left: 13.5rem;
+    width: 40rem;
+    text-align: left;
+}
+
+footer{
+    width: 100%;
+    margin-top: 3rem;
+    text-align: center;
+    background-color: grey;
+    font-size: large;
+    color: white;
+}
+
+.marca_registrada{
+    font-weight: bold;
+    color: white;
+}
+
+.redes_sociales{
+    color: red;
+    font-size: large;
+    font-weight: bold;
+}
+
+.logos{
+    font-size: xx-large;
+}

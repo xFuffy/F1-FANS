@@ -1,0 +1,52 @@
+*{margin: 0; padding: 0;}
+
+html{
+    overflow-y: hidden;
+}
+
+body{
+    background-color: black;
+    width: 100%;
+    color: white;
+
+}
+
+.subtitulo{
+    color: red;
+}
+
+.pasos_a_seguir{
+    font-size: x-large;
+    font-family: 'Times New Roman';
+    font-style: italic;
+    color: white; 
+}
+
+.formulario{
+    position:absolute; top:10%; right:5%;
+    font-size: x-large;
+}
+
+footer{
+    width: 100%;
+    margin-top: 3rem;
+    text-align: center;
+    background-color: grey;
+    font-size: large;
+    color: white;
+}
+
+.marca_registrada{
+    font-weight: bold;
+    color: white;
+}
+
+.redes_sociales{
+    color: red;
+    font-size: large;
+    font-weight: bold;
+}
+
+.logos{
+    font-size: xx-large;
+}

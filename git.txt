@@ -1,0 +1,19 @@
+git config --global user.name "nombre"
+git config --global user.name (aca va a poner el nombre que puse)
+
+git config --global user.email "email"
+git config --global user.email (aca va a poner el mail que puse)
+
+Esto se pone una sola vez al inicia un proyecto
+--> git init (para iniciarlizar por primera vez git)
+--> git remote add origin https:// (link)
+
+git status
+
+git add nombreArchivo o git add . (agrega todos los cambios)
+
+git commit -m "Mensaje representativo de lo que estan agregando"
+
+git push origin master 
+
+cls (limpia la consola)

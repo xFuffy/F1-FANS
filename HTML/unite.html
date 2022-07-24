@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 ">
+    <title> Pilotos </title>
+
+    <link rel="icon" href="../Imagenes/f1_64px.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+<link rel="stylesheet" href="../CSS/style_unite.css">
+<link rel="stylesheet" href="">
+
+</head>
+
+<header>
+
+    <div id="barraNavegacion">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../Imagenes/f1_64px.png" alt="Logo F1" width="32" height="32"
+                        class="d-inline-block align-text-top">
+                Formula 1
+                </a>
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="pilotos.html">Pilotos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="equipos.html">Equipos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="circuitos.html">Circuitos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="unite.html">Unite</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+    </div>
+    </nav>
+    </div>
+
+</header>
+
+<body>
+    <section> 
+        <h1>¿QUE ESTAS ESPERANDO? UNITE</h1>
+    </section>
+
+    <main> 
+        <section>
+            <h2 class="subtitulo"> Pasos a seguir </h2>
+            <ol class="pasos_a_seguir">
+                <li> Complete con su nombre completo </li>
+                <li> Complete con su apellido completo </li>
+                <li> Coloque su email </li>
+                <li> Coloque una contraseña </li>
+                <li> Seleccione su sexo </li>
+                <li> Seleccione su escuderia preferida </li>
+                <li> Presione enviar (o resetear si quiere reiniciar la carga de los datos) </li>
+            </ol>
+        </section>
+
+    <section class="formulario">
+            <form method="" action="">
+                Nombre: <input type="text" name="nombre" required>
+                <br>
+                Apellido: <input type="text" name="apellido" required>
+                <br>
+                E-mail: <input type="email" name="email" size="22" required>
+                <br>
+                Contraseña: <input type="password" name="password" required>
+                <br>
+                Indique su sexo: <br>
+                Masculino: <input type="radio" name="sexo" required><br>
+                Femenino: <input type="radio" name="sexo" required><br>
+                Otro: <input type="radio" name="sexo" required><br>
+                Seleccione su escuderia preferida
+                <select id="escuderia" name="escuderia">
+                    <option value="Mercedes">Mercedes</option>
+                    <option value="Ferrari">Ferrari</option>
+                    <option value="RedBull">RedBull</option>
+                    <option value="Alpine">Alpine</option>
+                    <option value="Haas">Haas</option>
+                    <option value="McLaren">McLaren</option>
+                    <option value="AlfaRomeo">AlfaRomeo</option>
+                    <option value="AstonMartin">AstonMartin</option>
+                    <option value="Alphatauri">Alphatauri</option>
+                    <option value="Williams">Williams</option>
+                </select>
+                <br>
+                
+                <input type="submit" value="Enviar">
+                <input type="reset" name="Cancelar">
+            </form>
+
+    </section>
+    </main>
+
+</body>
+
+<footer>
+    <br>
+    <p class="marca_registrada"> ® TODOS LOS DERECHOS RESERVADOS ®</p>
+    <p class="redes_sociales">FOLLOW US</p>
+    <div class="logos">
+        <a style="color:rgb(0, 191, 255)" href=""><i class="fa-brands fa-twitter"></i></a>
+        <a style="color:orange" href=""><i class="fa-brands fa-instagram"></i></a>
+        <a style="color:blue" href=""><i class="fa-brands fa-facebook"></i></a>
+    </div>
+    <br>
+</footer>
+
+
+</html>

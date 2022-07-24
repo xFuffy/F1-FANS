@@ -1,0 +1,39 @@
+*{margin: 0; padding: 0;}
+
+header{
+    position: sticky; top: 0;
+    z-index: 999;
+}
+
+body{
+    overflow-x: hidden;
+    background-color: black;
+}
+
+.card{
+    margin-left: 1rem;
+}
+
+footer{
+    width: 100%;
+    margin-top: 3rem;
+    text-align: center;
+    background-color: grey;
+    font-size: large;
+    color: white;
+}
+
+.marca_registrada{
+    font-weight: bold;
+    color: white;
+}
+
+.redes_sociales{
+    color: red;
+    font-size: large;
+    font-weight: bold;
+}
+
+.logos{
+    font-size: xx-large;
+}

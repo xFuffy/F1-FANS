@@ -5,6 +5,11 @@ header{
     z-index: 999;
 }
 
+.bienvenida{
+    color: white;
+    align-content: flex-end;
+}
+
 .borde{
     border: 1px #000 solid;
     text-align: center;
@@ -38,11 +43,14 @@ body{
 
 footer{
     width: 100%;
-    margin-top: 3rem;
     text-align: center;
     background-color: grey;
-    font-size: large;
+    font-size: medium;
     color: white;
+}
+
+.fa-solid{
+    color: black;
 }
 
 .marca_registrada{
@@ -52,10 +60,10 @@ footer{
 
 .redes_sociales{
     color: red;
-    font-size: large;
+    font-size: medium;
     font-weight: bold;
 }
 
 .logos{
-    font-size: xx-large;
+    font-size: x-large;
 }

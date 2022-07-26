@@ -38,6 +38,11 @@
 }
 
 /* NOTICIAS */
+
+.noticias{
+    color: red;
+}
+
 .slider2 {
     width: 100vw;
     height: 3rem;
@@ -52,8 +57,8 @@
 
 .slider2 .slide-track2 {
     display: flex;
-    animation: scroll 20s linear infinite;
-    -webkit-animation: scroll 20s linear infinite;
+    animation: scroll 25s linear infinite;
+    -webkit-animation: scroll 25s linear infinite;
     width: calc(1000px * 14);
 }
 

@@ -18,27 +18,43 @@ header{
 
 body{
     overflow-x: hidden;
+    background-image: url(../Imagenes/opcion3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #272927;
 }
 
 .banner{
-    background-image: url(../Imagenes/standard.gif); height: 3rem;
+    background-image: url(../Imagenes/standard.gif); height: 3.69rem;
     background-repeat: repeat;
 }
 
-.color1{
-    background: #eeeeee;
+article{
+    width: 78%;
+    grid-column: 2;
+    grid-row: 2;
+    float: left;
+    margin: 0.5rem;
+    border-right: 0.1rem;
+    border-right-style: solid;
+    border-color: gray;
 }
 
-.color2{
-    background: #fcc314;
+aside{
+    width: 20%;
+    grid-column: 2;
+    grid-row: 2;
+    float: left;
+    /* margin: 1rem; */
+    /* padding-left: 1rem; */
 }
 
-.color3{
-    background: #94ac3c;
-}
-
-.color4{
-    background: #295ba7;
+.contenedor{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+/*     background-color: #272927 */
 }
 
 footer{

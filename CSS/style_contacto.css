@@ -5,6 +5,12 @@ body{
     background-color: black;
     width: 100%;
     color: white;
+    background-image: url(../Imagenes/opcion3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
 }
 
 .mb-4{

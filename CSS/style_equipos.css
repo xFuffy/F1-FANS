@@ -8,6 +8,11 @@ header{
 body{
     overflow-x: hidden;
     background-color: black;
+    background-image: url(../Imagenes/opcion3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 /* ----------------------------------- */

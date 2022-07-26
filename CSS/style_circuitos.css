@@ -36,7 +36,6 @@ header{
 footer{
     width: 100%;
     text-align: center;
-    background-color: grey;
     font-size: medium;
     color: white;
     margin-top: 2rem;
@@ -62,6 +61,6 @@ footer{
 }
 
 .mapita{
-    color: black;
+    color:white;
     position: relative; bottom: 1rem;
 }

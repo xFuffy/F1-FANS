@@ -8,6 +8,8 @@
 
     <link rel="icon" href="Imagenes/f1_64px.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="JS/jquery.scrollUp.js"></script>
 
 <!-- FONTS -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,7 +23,7 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 
 <link rel="stylesheet" href="CSS/style.css">
-<link rel="stylesheet" href="CSS/style_patrocinadores.css">
+<link rel="stylesheet" href="CSS/style_carruseles.css">
 
 </head>
 
@@ -57,7 +59,8 @@
                 </div>
 
                 <div class="bienvenida">
-                    <!-- <script>
+                    
+                    <script>
                         var nombre;
                         do {
                             nombre = prompt("Ingrese su nombre:");
@@ -65,7 +68,7 @@
                         while (nombre == "")
                         document.write (`¡Bienvenido, ${nombre}!`);
                         
-                    </script> -->
+                    </script>
 
                 </div>
             </div>
@@ -119,7 +122,7 @@
 
         <section class="ganador">
             <h3>Max Verstappen: Ultimo ganador</h3>
-            <img class="noticia1" src="/F1-FANS/Imagenes/noticia1.jpg" alt="">
+            <img class="noticia1" src="Imagenes/noticia1.jpg" alt="">
             <br>
             <p>El piloto neerlandés Max Verstappen logró la victoria en el Gran Premio de Francia y extiende de forma importante su ventaja en el campeonato. Mala fortuna para Charles Leclerc, quien se salió de pista cuando iba liderando en la primera parte de la competencia. El podio lo completaron los pilotos de Mercedes, Lewis Hamilton y George Russell. Cuarto lugar para Sergio 'Checo' Pérez.
                 <br>
@@ -134,7 +137,7 @@
         <br>
         <section class="goodNewsMercedes">
             <h3>Mercedes muestra su evolución con el podio de Hamilton y Russell en Paul Ricard</h3>
-            <img class="noticia2" src="/F1-FANS/Imagenes/noticia2.jpg" alt="">
+            <img class="noticia2" src="Imagenes/noticia2.jpg" alt="">
             <p>
                 La escudería Mercedes no ha tenido un 2022 dominante tal como han sido sus ocho temporadas anteriores. Están dejando atrás progresivamente sus dificultades y el W13 es más veloz. El doble podio en el Gran Premio de Francia lo demuestra. 
                 <br> 
@@ -178,13 +181,13 @@
     </article>
 
     <aside>
-        <img src="./Imagenes/download.jpg" alt="publicidad" width="200">
+        <img src="Imagenes/download.jpg" alt="publicidad" width="200">
         <br>
         <br>
-        <img src="./Imagenes/download2.jpg" alt="publicidad2" width="200">
+        <img src="Imagenes/download2.jpg" alt="publicidad2" width="200">
         <br>
         <br>
-        <img src="./Imagenes/download3.jpg" alt="publicidad3" width="200" height="550">
+        <img src="Imagenes/download3.jpg" alt="publicidad3" width="200" height="550">
         <br>
         <br>
         <br>
@@ -196,65 +199,66 @@
         <center><iframe width= "1200" height="720" src="https://www.youtube.com/embed/ViizbPOhZiQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
     </div>
 <!-- FIN DE LA SECCION DEL VIDEO -->
-    
-<!-- SECCION DE PATROCINADORES -->
-    <section class="patrocinadores">
 
-        <div class="slider">
-            <div class="slide-track">
-                <div class="slide">
-                    <img src="Imagenes/Patrocinadores/aramco.png" alt="" width="200px" height="100">
+<!-- SECCION DE PATROCINADORES -->
+
+    <section class="patrocinadores">
+        <div class="carrusel">
+            <div class="carrusel-items">
+                <div class="carrusel-item">
+                    <img src="Imagenes/Patrocinadores/aramco.png" alt="aramco">
                 </div>
-                <div class="slide">
-                    <img src="Imagenes/Patrocinadores/cryptodotcom.png" alt="" width="200px" height="100">
+                <div class="carrusel-item">
+                    <img src="Imagenes/Patrocinadores/cryptodotcom.png" alt="cryptodotcom">
                 </div>
-                <div class="slide">
-                    <img src="Imagenes/Patrocinadores/dhl.png" alt="" width="200px" height="100">
+                <div class="carrusel-item">
+                    <img src="Imagenes/Patrocinadores/dhl.png" alt="dhl">
                 </div>
-                <div class="slide">
-                    <img src="Imagenes/Patrocinadores/emirates.png" alt="" width="200px" height="100">
+                <div class="carrusel-item">
+                    <img src="Imagenes/Patrocinadores/emirates.png" alt="emirates">
                 </div>
-                <div class="slide">
-                    <img src="Imagenes/Patrocinadores/heineken.png" alt="" width="200px" height="100">
+                <div class="carrusel-item">
+                    <img src="Imagenes/Patrocinadores/heineken.png" alt="heineken">
                 </div>
-                <div class="slide">
-                    <img src="Imagenes/Patrocinadores/msccruises.png" alt="" width="200px" height="100">
+                <div class="carrusel-item">
+                    <img src="Imagenes/Patrocinadores/msccruises.png" alt="msccruises">
                 </div>
-                <div class="slide">
-                    <img src="Imagenes/Patrocinadores/pirelli.png" alt="" width="200px" height="100">
+                <div class="carrusel-item">
+                    <img src="./Imagenes/Patrocinadores/pirelli.png" alt="pirelli">
                 </div>
-                <div class="slide">
-                    <img src="Imagenes/Patrocinadores/rolex.png" alt="" width="200px" height="100">
+                <div class="carrusel-item">
+                    <img src="Imagenes/Patrocinadores/rolex.png" alt="rolex">
                 </div>
-    
-                <div class="slide">
-                    <img src="Imagenes/Patrocinadores/aramco.png" alt="" width="200px" height="100">
+
+                <div class="carrusel-item">
+                    <img src="Imagenes/Patrocinadores/aramco.png" alt="aramco">
                 </div>
-                <div class="slide">
-                    <img src="Imagenes/Patrocinadores/cryptodotcom.png" alt="" width="200px" height="100">
+                <div class="carrusel-item">
+                    <img src="Imagenes/Patrocinadores/cryptodotcom.png" alt="cryptodotcom">
                 </div>
-                <div class="slide">
-                    <img src="Imagenes/Patrocinadores/dhl.png" alt="" width="200px" height="100">
+                <div class="carrusel-item">
+                    <img src="Imagenes/Patrocinadores/dhl.png" alt="dhl">
                 </div>
-                <div class="slide">
-                    <img src="Imagenes/Patrocinadores/emirates.png" alt="" width="200px" height="100">
+                <div class="carrusel-item">
+                    <img src="Imagenes/Patrocinadores/emirates.png" alt="emirates">
                 </div>
-                <div class="slide">
-                    <img src="Imagenes/Patrocinadores/heineken.png" alt="" width="200px" height="100">
+                <div class="carrusel-item">
+                    <img src="Imagenes/Patrocinadores/heineken.png" alt="heineken">
                 </div>
-                <div class="slide">
-                    <img src="Imagenes/Patrocinadores/msccruises.png" alt="" width="200px" height="100">
+                <div class="carrusel-item">
+                    <img src="Imagenes/Patrocinadores/msccruises.png" alt="msccruises">
                 </div>
-                <div class="slide">
-                    <img src="Imagenes/Patrocinadores/pirelli.png" alt="" width="200px" height="100">
+                <div class="carrusel-item">
+                    <img src="Imagenes/Patrocinadores/pirelli.png" alt="pirelli">
                 </div>
-                <div class="slide">
-                    <img src="Imagenes/Patrocinadores/rolex.png" alt="" width="200px" height="100">
+                <div class="carrusel-item">
+                    <img src="Imagenes/Patrocinadores/rolex.png" alt="rolex">
                 </div>
             </div>
         </div>
-
     </section>
+    <script src="JS/carrusel.js"></script>
+
 <!-- FIN DE SECCION DE PATROCINADORES -->
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"> </script>
@@ -265,7 +269,7 @@
 
 <footer>
     <br>
-    <p class="marca_registrada"> ® TODOS LOS DERECHOS RESERVADOS - F1 FANS®</p>
+    <a href="Derechos de autor.txt" download="Derechos_De_Autor"><p class="marca_registrada"> ® TODOS LOS DERECHOS RESERVADOS - F1 FANS®</p></a>
     <p class="redes_sociales"><i class="fa-solid fa-flag-checkered"></i> FOLLOW US <i class="fa-solid fa-flag-checkered"></i></p>
     <div class="logos">
         <a style="color:rgb(0, 191, 255)" target="_blank" href="https://twitter.com/F1"><i class="fa-brands fa-twitter"></i></a>

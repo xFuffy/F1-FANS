@@ -14,6 +14,9 @@ header{
     font-family: 'Cinzel', serif;
 }
 
+h3{
+    font-family: 'Roboto', sans-serif;
+}
 
 body{
     overflow-x: hidden;
@@ -80,7 +83,7 @@ footer{
 }
 
 .fa-solid{
-    color: white;
+    color: black;
 }
 
 .marca_registrada{
@@ -96,4 +99,14 @@ footer{
 
 .logos{
     font-size: x-large;
+}
+
+
+#scrollUp{
+    bottom: 1.25rem;
+    right: 1.25rem;
+    width: 3.12rem;
+    height: 3.12rem;
+    background: url(../Imagenes/top.png);
+    background-size: cover;
 }

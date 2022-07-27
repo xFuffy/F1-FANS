@@ -64,3 +64,12 @@ footer{
     color:white;
     position: relative; bottom: 1rem;
 }
+
+#scrollUp{
+    bottom: 1.25rem;
+    right: 1.25rem;
+    width: 3.12rem;
+    height: 3.12rem;
+    background: url(../Imagenes/top.png);
+    background-size: cover;
+}
